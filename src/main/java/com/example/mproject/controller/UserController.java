@@ -23,7 +23,7 @@ public class UserController {
     
     
     
-    @GetMapping("/home")
+    @GetMapping("/")
     public String welcome()
     {
     	return "Welcome to home page!";
